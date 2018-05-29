@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+
+}
+body{
+
+}
+#start-pad{
+   height: 400px;
+}
+#tempc{
+    border-radius: 5px;
+    border: 0.7px solid gray;
+    color:#9d9d9d;
+    padding: 1px;
+}
+#tempf{
+    border-radius: 5px;
+    border: 0.7px solid gray;
+    color:#9d9d9d;
+    padding: 1px;
+}
+.right-info p{
+    font-size:22px;
+    font-weight: bold;
+}
+.right-info i{
+    margin:5px;
+}
+.time, .backers, .funded,.temperature,.summary {
+    padding: 5px;
+    font-family: 'muli', 'arial';
+    font-weight: 600;
+    font-size: small;
+
+}
+.summary h5, .temperature h5, .time h5, .backers h5, .funded h5{
+    color:blueviolet;
+    font-weight: bold;
+}

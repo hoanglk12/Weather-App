@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Forecast App</title>
+
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<body>
+    <h1>Weather Forecast</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 left-banner">
+                <img class="img-responsive pad" id="start-pad" src="" alt="Please Allow Location">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 right-info">
+                <p>Detail Information<i class="fa fa-globe" aria-hidden="true"></i></p>
+                <div class="details">
+                    <div class="summary"><h5>SUMMARY</h5><span id="summary"></span></div>
+                    <div class="temperature"><h5>DEGREE</h5><span id="tempf"></span><span id="tempc"></span></div>
+
+                    <div class=time><h5>LATITUDE</h5><span id="latitude"></span>  </div>
+                    <div class="backers"><h5>LONGITUDE</h5><span id="longitude"></span> </div>
+                    <div class="funded"><h5>REGION</h5><span id="city"></span></div>
+                    <!--<div class="nation"><span id="country"></span>COUNTRY</div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/jquery-2.2.4.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</html>
